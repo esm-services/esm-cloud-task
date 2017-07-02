@@ -8,10 +8,10 @@ import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableTask
-public class EsmCloudTaskApplication {
+public class ESMCloudTaskApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EsmCloudTaskApplication.class, args);
+		SpringApplication.run(ESMCloudTaskApplication.class, args);
 	}
 
 	@Bean
